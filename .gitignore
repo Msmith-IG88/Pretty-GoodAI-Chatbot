@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+.venv/
+venv/
+env/
+.env
+.env.*
+save.txt
+save*.txt
+recordings/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
