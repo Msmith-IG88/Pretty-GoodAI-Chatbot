@@ -38,6 +38,7 @@ Create a local environment file (recommended) named `.env` with the following va
 ```
 TWILIO_ACCOUNT_SID=your_twilio_account_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
+TWILIO_PHONE_NUMBER=your_twilio_number
 PUBLIC_BASE_URL=http://localhost:8000           # Will be overwritten by ngrok when testing publicly
 OPENAI_API_KEY=your_openai_api_key
 OPENAI_MODEL=gpt-4o-mini
@@ -49,7 +50,7 @@ Notes:
 
 If you have a pre-existing environment setup (e.g., a `requirements.txt` or a virtual environment), adapt commands accordingly.
 
-## Setup and installation (recommended workflow)
+## Setup and installation
 
 1) Create and activate a virtual environment
 
@@ -64,7 +65,7 @@ If you have a pre-existing environment setup (e.g., a `requirements.txt` or a vi
 
 2) Install dependencies
 
-- If there is a requirements file in the repository, use:
+- use:
   - pip install -r requirements.txt
 
 - Otherwise, install core dependencies directly:
@@ -82,10 +83,6 @@ If you have a pre-existing environment setup (e.g., a `requirements.txt` or a vi
 
 ## Run the application
 
-- Start the FastAPI server (host accessible from local network or publicly exposed)
-  - Command:
-    - python run.py
-
 - If you are testing locally and need public access:
   - Install and run ngrok (https://ngrok.com)
   - Expose port 8000:
@@ -96,6 +93,10 @@ If you have a pre-existing environment setup (e.g., a `requirements.txt` or a vi
   - Point your Twilio phone number’s Voice webhook to:
     - POST {PUBLIC_BASE_URL}/voice
   - Ensure your Twilio account has valid credentials (SID and Auth Token) placed in the environment.
+
+- Start the FastAPI server (host accessible from local network or publicly exposed)
+  - Command:
+    - python run.py
 
 ## How to test
 
