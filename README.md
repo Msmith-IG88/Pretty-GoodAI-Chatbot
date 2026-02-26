@@ -111,6 +111,9 @@ If you have a pre-existing environment setup (e.g., a `requirements.txt` or a vi
 
 The bot supports configurable scenarios defined in `server.py`. The scenario is stored in call state and logged at the top of each transcript. 
 
+- Loom test demo and walkthrough video:
+  - https://www.loom.com/share/03949c1aea5d42e5b111a560a797fdaf
+
 ## Endpoints overview
 
 - POST /voice
