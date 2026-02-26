@@ -1,0 +1,93 @@
+Pretty Good AI – Voice Bot Assessment
+Bug Report
+
+----------------------------------------
+Bug 1: Date of Birth Loop / Failure to Parse Identity
+Calls: 20260224-224524_CA5c465cab98e9cb987f3cba0811d6dd85.txt
+       20260224-230930_CAbb4118ba9a4cd6b626736a25f044b0da.txt
+
+Details:
+The agent repeatedly asks for “data birth” even after the user provides it multiple times. 
+In one call, the agent continues asking for the DOB in slightly different broken phrasings 
+("month day in here", "specific numbers for you data birth") without progressing.
+
+Why This Is a Problem:
+This creates a dead-end loop where the user cannot move forward. Identity verification 
+is a core workflow, and failure to parse common DOB formats (spoken month/day/year, 
+numeric format, ISO format) makes the system unusable.
+
+----------------------------------------
+Bug 2: Cannot Create New Patient Accounts
+Calls: 20260224-231412_CA24b35b4577e23a6ddddbeb0c85b42908.txt
+       20260224-223015_CAeeae2fb1f4db63b868aa18abe5040706.txt
+
+Details:
+When a user is not found in the system, the agent states it cannot create a new 
+patient account and cannot proceed. It attempts escalation, which is unavailable.
+
+Why This Is a Problem:
+Creating a new patient is a core clinic workflow. Blocking appointment scheduling for 
+new patients limits the real-world usability.
+
+----------------------------------------
+Bug 3: Medication Refill Workflow Failure
+Calls: 20260224-231412_CA24b35b4577e23a6ddddbeb0c85b42908.txt
+       20260224-223605_CA3402012b66aa618bf489de724b819dea.txt
+
+Details:
+When asking for medication refills including a list of medications, the agent 
+fails to complete the workflow due to inability to access records. It does not 
+offer structured fallback steps.
+
+Why This Is a Problem:
+Medication refill handling is safety-critical. The system does not provide 
+clear next steps or confirmation that the request is logged.
+
+----------------------------------------
+Bug 4: Language Consistency Failure (Spanish Call)
+Call: 20260224-223605_CA3402012b66aa618bf489de724b819dea.txt
+
+Details:
+The conversation begins in Spanish, then the agent switches back to English 
+mid-conversation. Spanish responses are grammatically incorrect and repetitive 
+(“Hola, ¿en qué puedo ayudar y yo voy?” repeated multiple times). 
+
+Why This Is a Problem:
+Language instability creates confusion. In healthcare settings, 
+clear multilingual support is critical. This was probably the worst bug found.
+
+----------------------------------------
+Bug 5: Incorrect Provider Information / Gender Confusion
+Call: 20260224-215414_CA3c50e26a84bd377334b5cba62241710d.txt
+
+Details:
+The agent describes “Dr. Judy Houser” using male pronouns, 
+then inconsistently references provider names (Doody House / Doogie Houser / Brecker / Bricker).
+
+Why This Is a Problem:
+Inconsistent provider identity creates confusion and reduces trust. 
+Accurate representation of clinicians is essential in healthcare systems.
+
+----------------------------------------
+Bug 6: Identity Lookup Workflow
+Call: 20260224-220113_CAf487a41444ed82675fef901bb0013efd.txt
+
+Details:
+User attempts alternative lookup (email). Agent refuses and loops back to 
+reconfirm name and DOB, then fails to proceed.
+
+Why This Is a Problem:
+System lacks flexible identity verification options (email, alternate identifiers). 
+When lookup fails, no structured recovery path is provided.
+
+----------------------------------------
+Bug 7: Time Availability Logic Inconsistency
+Call: 20260224-213052_CAc26ced5f92427a60b70f4f57e8671969.txt
+
+Details:
+Agent initially states no openings in next week and early March, 
+then suddenly provides March 5th availability.
+
+Why This Is a Problem:
+Inconsistent availability logic reduces reliability and may indicate 
+backend scheduling logic instability.

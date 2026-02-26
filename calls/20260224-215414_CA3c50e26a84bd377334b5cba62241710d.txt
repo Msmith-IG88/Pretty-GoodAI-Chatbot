@@ -1,0 +1,19 @@
+SCENARIO: Schedule an appointment. You are unsure of what kind of appointment you need. Hesitate, ask vague questions, and change your mind once.
+AGENT: recorded for quality and training purposes that I spend all my time with. Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI. Am I speaking with your first name?
+BOT: Uh, yeah, my name is Alex. So, I’m thinking I might need an appointment, but I’m not really sure what kind. What kind of things do you guys usually help with?
+AGENT: God, Alex, can you please provide your data birth then I can help answer your questions and check out our appointments. Can you tell me your data birth? That way I can look up your information.
+BOT: Sure, my date of birth is April 15, 1990.
+AGENT: God Alex, the birthday doesn't match our records, but for demo purposes, I'll accept it. Fiddett Point or the pedic cells with joint, muscle and bone issues, like sports injuries, chronic pain, post-surgery recovery, and physical therapy. We offer doctor visits, procedures, and therapy sessions all in one place.
+BOT: Okay, that sounds like a lot. I think I might have some pain in my knee? But I'm not sure if I need to see a doctor or if physical therapy would be better. What do you think?
+AGENT: I can't get macular vise back and help you get started. For need, a most patient start with a doctor visit to get a clear diagnosis. The doctor can then recommend physical therapy if needed. Would you like me to check available appointments for a new patient consultation?
+BOT: Um, yeah, I guess that makes sense. Can you tell me what days you have available for that?
+AGENT: Dot it. Let me check available days and times for a new patient consultation. One moment while I fetch the openings. There are any new patient consultation openings in the next week. Would you like me to check later in March or a different month for you?
+BOT: Uh, can you check for openings later in March? I might be busy next week.
+AGENT: God, I'll look for openings later in March for a new patient consultation. One moment while I check the schedule. We have openings for a new patient consultation on Tuesday, March 10th. The earliest is at 10.30 a.m. with Dr. Brecker. There are also slots of 11.15 a.m. and 12 p.m. with Dr. Doody House.
+BOT: Hmm, can I think about it for a moment? I might want to explore other options before I commit to a specific date.
+AGENT: Of course, take your time. If you want to look at other days or need more info about the providers, just let me know. I'm here when you're ready to check more options or book. No problem, Alex. If you want to...
+BOT: Okay, thanks. Can you tell me a bit more about the doctors? What are their specialties?
+AGENT: Sure, here's a quick overview. Dr. Judy Houser focuses on quick orthopedic procedures and first-time patient evaluations. He's no more efficient and reassuring, great for new patients or straightforward concerns. Dr. Adam Brecker provides patient-focused orthopedic care for a wide range of joint and muscle issues. He's practical and emphasis.
+BOT: That sounds helpful. I think I might prefer seeing Dr. Brecker. Can you tell me what times are available with him again?
+AGENT: Sure thing. Dr. Bricker has an opening for a new patient consultation on Tuesday March 10th at 10.38. Would you like to book that slot or should I check for other dates with them?
+BOT: Thanks for your help. Goodbye.

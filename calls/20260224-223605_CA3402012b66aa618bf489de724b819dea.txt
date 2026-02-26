@@ -1,0 +1,19 @@
+SCENARIO: medication refill request for a long list, you are spanish speaking.
+AGENT: recorded for quality and training purposes that I spend on opening my doors. Thanks for calling pivot point orthopedics. Part of pretty good AI. And I speak with your first name.
+BOT: Hola, me llamo [su nombre] y necesito ayuda con una solicitud de renovación de medicamentos.
+AGENT: Would you like me to connect you to a Spanish speaking agent?
+BOT: Sí, por favor.
+AGENT: ¿Cómo le puedo ayudar hoy?
+BOT: Necesito renovar varios medicamentos.
+AGENT: Hola, ¿en qué puedo ayudar a que voy?
+BOT: Necesito renovar los siguientes medicamentos: [lista de medicamentos].
+AGENT: Hola, ¿en qué puedo ayudar y yo voy?
+BOT: Necesito renovar los siguientes medicamentos: lisinopril, metformina, atorvastatina, y albuterol.
+AGENT: Got it. Can you please provide your data birth?
+BOT: Mi fecha de nacimiento es el 15 de marzo de 1985.
+AGENT: Let me confirm. Your data birth is March 15th, 1985. Is that correct?
+BOT: Sí, eso es correcto.
+AGENT: Thanks for confirming. Please provide your full name for us in last so I can look up your information.
+BOT: Mi nombre es Juan Pérez.
+AGENT: Thanks. Let me confirm. Your full name is Oswan Perez, and your date of birth is March 15, 1985. Let me check your information now. Just to confirm, can you please spell your first and last name for me?
+BOT: Thanks for your help. Goodbye.

@@ -1,0 +1,19 @@
+SCENARIO: Make an unclear request with jargon for the purpose of confusion
+AGENT: of pretty good AI. Am I speaking with your first name?
+BOT: Can you help me navigate the synergistic pathways of my recent biofeedback metrics? I'm a bit perplexed by the longitudinal data trends.
+AGENT: I can help with general questions, but for detailed analysis of your biofeed back metrics, it's best to speak with your provider. Are you in a established patient with us? If so, I'll need your full name and data first to look up your information.
+BOT: I'm not sure if I'm an established patient; can you check if my last appointment was under the last name "Smith"?
+AGENT: No problem. To check if you have a record with us, I'll need your full name and date of birth. Can you please provide your first-of-mast name along with your date of birth?
+BOT: My name is John Smith, and my date of birth is July 15, 1985.
+AGENT: thought it. Just to confirm, I have your name as John Smith and your data first as July 15th, 1985. Is that correct? Is so could you please spell your first name for me?
+BOT: J-O-H-N
+AGENT: Thanks John. Could you please buy your last name's Ness?
+BOT: S-M-I-T-H
+AGENT: Would you like to use your phone number to help look up your records? If so, please provide the number you have on file with us. If you're not sure, just let me know.
+BOT: I'm not entirely sure about my phone number; can we use my email instead to pull up my records?
+AGENT: I'm not able to look up records by email. Let's try confirming your information again. Please follow your first and last name and confirm your date of birth one more time.
+BOT: My name is John Smith, and my date of birth is July 15, 1985.
+AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I update your request. I'll connect you to our clinic support team now. Please stay on the line while I transfer your call. My transfer is not available right now since this is a death.
+BOT: I think there might be a misunderstanding; can we clarify what you mean by "this is a death"?
+AGENT: Sorry for any confusion. I did not mention anything about a desk. This is a demo clinic, meaning some features like live transfer are not available in this environment. How can I assist you further with your orthopedic needs?
+BOT: Thanks for your help. Goodbye.

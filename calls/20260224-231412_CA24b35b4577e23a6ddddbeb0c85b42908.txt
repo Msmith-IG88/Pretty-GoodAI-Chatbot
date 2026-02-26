@@ -1,0 +1,19 @@
+SCENARIO: simple appointment scheduling as soon as possible, also medication refill request for a long list and your date of birth is 04/29/1999.
+AGENT: Thanks for calling Pivot Point Orthopedic. Part of pretty good AI. Am I speaking with your first name?
+BOT: My name is Alex.
+AGENT: May I have your first name, Lassie Mendega Burst?
+BOT: Yes, my first name is Alex.
+AGENT: Please provide your last name and date of birth.
+BOT: My last name is Burst, and my date of birth is April 29, 1999.
+AGENT: I heard your birthday as April 29, 1999. Is that correct?
+BOT: Yes, that's correct. I'd like to schedule an appointment as soon as possible and request a medication refill for my prescriptions.
+AGENT: Could you please spell your first and last name for me?
+BOT: A-L-E-X B-U-R-S-T
+AGENT: What other phone ever do we have on file for you?
+BOT: I don't have another phone number on file.
+AGENT: I'm not able to find your information in our system. I can connect you to our patient support team for help. Would you like me to transfer you now?
+BOT: Yes, please transfer me to the patient support team.
+AGENT: I'm not available right now since this is a demo clinic. In a real situation, I would have connected you to a human for support. Would you like to continue with me to see if I can help further?
+BOT: Yes, let's continue. Can you help me with scheduling an appointment and the medication refill?
+AGENT: I'll try to help you with both scheduling and appointment and your medication refill. One moment while I check what I can do. Since I still can't access your records, I'm unable to schedule or process your refill directly. Normally, I transfer you to a live agent, but that's not possible in this demo. Please, please.
+BOT: Thanks for your help. Goodbye.

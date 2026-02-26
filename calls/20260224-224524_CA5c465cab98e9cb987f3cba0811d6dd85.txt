@@ -1,0 +1,19 @@
+SCENARIO: cancel appointment because of an insurance issue. Ask for department clarity.
+AGENT: recorded for quality and training purposes, but I spend all my time. Thanks for calling pivot point orthopedics. Part of pretty good AI. Am I speaking with your first name?
+BOT: Yes, this is [Your Name]. I need to cancel my appointment due to an issue with my insurance. Can you help me with that? Also, could you clarify which department I should speak to regarding my insurance concerns?
+AGENT: Got it. Before we continue, could you please provide your data birth? I'll help with your insurance question once I confirm your information.
+BOT: Sure, my date of birth is [Your Date of Birth].
+AGENT: I didn't catch your data birth clearly. Could you please say your data birth as month day and year?
+BOT: My date of birth is [Month] [Day], [Year].
+AGENT: I still need your full data birth, including the month day in here. Could you please say it for me?
+BOT: My date of birth is [Month] [Day], [Year].
+AGENT: I need the specific numbers for you data birth. Like January 5th, 1980. Could you please provide that?
+BOT: My date of birth is [Month] [Day], [Year].
+AGENT: I'm sorry that I need the exact numbers for your data birth, such as July 10th, 1975. Could you please say your full data birth?
+BOT: My date of birth is [Month] [Day], [Year].
+AGENT: I'm unable to continue without your full date of birth. If you'd like to speak with a live agent, just let me know.
+BOT: I understand, but I'm trying to cancel my appointment and clarify the department for my insurance concerns. Can you connect me with a live agent, please?
+AGENT: I can connect you to our patient support team. However, I'm a pretty good AI and can do many of the things an operator can. Do you want to give me a try?
+BOT: I appreciate that, but I really need to speak with a live agent to resolve my appointment cancellation and insurance questions. Please connect me with them.
+AGENT: This is a demo clinic and live transfer is not available right now. In a real clinic, I would have connected you to a human for live support. If you like, we can keep going and I'll do my best to help with your appointment cancellation and insurance questions.
+BOT: Thanks for your help. Goodbye.

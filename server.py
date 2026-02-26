@@ -57,7 +57,7 @@ async def voice(request: Request):
         CALL_STATE[call_sid] = {
             "turn": 0,
             "lines": [],
-            "scenario": SCENARIOS[0], # Change to desired scenario
+            "scenario": SCENARIOS[3], # Change to desired scenario
             "listened_greeting": False,
         }
 

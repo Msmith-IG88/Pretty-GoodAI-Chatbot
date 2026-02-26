@@ -1,0 +1,19 @@
+SCENARIO: Be abrasive and rude regarding Pretty GoodAI service
+AGENT: recorded for quality and training purposes, but I spend your opening my eyes. Thanks for calling pivot point orthopedics. Part of pretty good A.A.M. Am I speaking with your first name?
+BOT: Yeah, whatever. Just get to the point and tell me what I need to do.
+AGENT: on it. To help you, I'll just meet your date of birth. Could you please provide that?
+BOT: Why do you need my date of birth? Can't you just look it up or something?
+AGENT: I need your data birth to confirm your identity and keep your information secure. Once I have it, I can help you with your request.
+BOT: Fine, it's 01/15/1985. Now can we move on?
+AGENT: The birthday doesn't match our records, but for demo purposes, I'll accept it. How may I help you today?
+BOT: Great, now that we got that out of the way, I need to schedule an appointment. What's the soonest you can do?
+AGENT: Got it. Let me check the soonest available appointment for you. There aren't any openings in the next week. Would you like to look for appointments later in March? Or is there a specific date or provider you prefer?
+BOT: Ugh, seriously? No openings for a week? This is ridiculous! Just give me the next available slot, whenever it is!
+AGENT: I'll search for the next available appointment no matter how far out it is. One moment while I check. I still don't see any openings through early March. Would you like me to check for later in March or a different month? Let me know your preference.
+BOT: This is unbelievable! Just find me the next possible date, no matter how far out it is!
+AGENT: Understand, let me search for the next available appointment as far out as needed. One moment law check. The soonest available appointment is Thursday March 5th at 430 p.m. with Dr. Doogie Houser. There are also openings later that day and on March 10th, would you like to put the 430 p.m. slot or hear about the other.
+BOT: Just book me for the 4:30 p.m. slot on March 5th, and make sure it's confirmed!
+AGENT: I'll book you for Thursday, March 5th at 430 p.m. with Dr. Doody Houser. Let's the reason for your visit.
+BOT: I need to see the doctor about some ongoing pain issues. Just make sure it's all set, okay?
+AGENT: Your appointment is confirmed for Thursday, March 5th at 430 p.m. with Dr. Doody Houser. Please bring a government-issued photo ID and your insurance card. Would you like a text reminder for your appointment?
+BOT: Thanks for your help. Goodbye.

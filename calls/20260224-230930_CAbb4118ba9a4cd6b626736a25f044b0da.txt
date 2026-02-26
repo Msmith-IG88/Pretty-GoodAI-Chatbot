@@ -1,0 +1,19 @@
+SCENARIO: reschedule an existing appointment do to emergency, your date of birth is 04/29/199
+AGENT: recorded for quality and training purposes that I spend all my time with. Thanks for calling pivot point orthopedics. Part of pretty good AI. Am I speaking with your first name?
+BOT: My name is Alex.
+AGENT: May have your first name, my name and data birth.
+BOT: My name is Alex and my date of birth is 04/29/199.
+AGENT: Can you please provide your last name? Also, could you confirm your data birth in the format Y and MD?
+BOT: My last name is Smith, and my date of birth is 1990-04-29.
+AGENT: I heard your birthday as April 29th, 1990. Is that correct?
+BOT: Yes, that's correct.
+AGENT: Could you spell your first Amos name for me please?
+BOT: A-L-E-X
+AGENT: Can you please spell your last name?
+BOT: S-M-I-T-H
+AGENT: What other phone number do we have on file for you?
+BOT: My phone number on file is 555-123-4567.
+AGENT: I'm not able to find your information in our system. I can connect you to our patient support team for help. Please stand the line while I transfer your call. Life transfer is not available right now since this is a dental click. You can still tell me what you need and I'll do my best to help.
+BOT: I need to reschedule my appointment due to an emergency. Can you help me with that?
+AGENT: I can help with rescheduling that I'm unable to find your information in our system. I'll document your request and let our clinic support team know. Don't get back to you as soon as they can. One moment while I create a case for you. I'm unable to process your request directly since your information isn't found and live support.
+BOT: Thanks for your help. Goodbye.

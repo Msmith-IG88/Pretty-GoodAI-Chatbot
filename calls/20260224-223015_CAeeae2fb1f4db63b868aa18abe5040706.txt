@@ -1,0 +1,19 @@
+SCENARIO: Begin conversation by saying and spelling your full name (John Doe) and give phone number. ask about office hours and location. You are not in the system if asked.
+AGENT: recorded for quality and training purposes that I spend all primal those. Thanks for calling pivot point orthopedics. Part of pretty good AI. Am I speaking with your first name?
+BOT: My name is John Doe, spelled J-O-H-N D-O-E, and my phone number is 555-123-4567. Can you please tell me your office hours and location?
+AGENT: Got it. Through the point orthopedics is open Monday, Tuesday and Thursday, from 9 a.m. to 4 p.m. Wednesday from 12 p.m. to 7 p.m. and Friday from 9 a.m. to 12 p.m. such a time. Let me get our full address for you. Our clinic is called pivot point orthopedics. The address is 2200 Athens Way Nashville.
+BOT: Thank you for the information. Can I schedule an appointment?
+AGENT: Of course. To help you schedule, could you please provide your Dana birth? Sure I can help with that. Can you please tell me your date?
+BOT: My date of birth is January 1, 1980.
+AGENT: Just to confirm I have your name as John Joe and your data birth as January 1, 1980. Is that correct?
+BOT: Yes, that's correct.
+AGENT: Would you like me to look up your record using your phone number? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and data birth again. Which would you prefer?
+BOT: I'm not in your system, so I can't provide a phone number on file. Can we still schedule an appointment?
+AGENT: Got it. Before we schedule your appointment, I'll just need to confirm your identity. One moment while I do that.
+BOT: I understand, but I really just want to schedule an appointment. What do you need from me to proceed?
+AGENT: I need to verify your identity before scheduling. Since you're not in our system yet, I can't create a new patient account for you. You'll need to speak with our clinic support team to get started. Would you like me to connect you now?
+BOT: Yes, please connect me to the clinic support team.
+AGENT: Live transfer is an available right now since this is a demo clinic. In a real situation, I would connect you to a human for support. If you have any other questions or need information, I'm here to help.
+BOT: Thank you for your help. Can you provide me with the contact information for the clinic support team?
+AGENT: The main contact for pivot point orthopedics is this phone number you called. If you need to reach the clinic support team, just call this number and you'll be connected. If you have any other questions, let me know.
+BOT: Thanks for your help. Goodbye.

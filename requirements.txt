@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+twilio
+openai
+python-dotenv
+requests
+python-multipart
+openai-whisper
+torch
